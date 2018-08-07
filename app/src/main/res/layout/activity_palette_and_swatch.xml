@@ -1,0 +1,647 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="right">
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical|right"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Light Vibrant"
+                        android:layout_marginRight="10dp" />
+
+                    <FrameLayout
+                        android:id="@+id/layout_light_vibrant1"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="#CCCCCC" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:gravity="center_vertical|right">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Vibrant"
+                        android:layout_marginRight="10dp" />
+
+                    <FrameLayout
+                        android:id="@+id/layout_vibrant1"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="#CCCCCC" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:gravity="center_vertical|right">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Dark Vibrant"
+                        android:layout_marginRight="10dp" />
+
+                    <FrameLayout
+                        android:id="@+id/layout_dark_vibrant1"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="#CCCCCC" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:gravity="center_vertical|right">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Light Muted"
+                        android:layout_marginRight="10dp" />
+
+                    <FrameLayout
+                        android:id="@+id/layout_light_muted1"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="#CCCCCC" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:gravity="center_vertical|right">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Muted"
+                        android:layout_marginRight="10dp" />
+
+                    <FrameLayout
+                        android:id="@+id/layout_muted1"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="#CCCCCC" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:gravity="center_vertical|right">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Dark Muted"
+                        android:layout_marginRight="10dp" />
+
+                    <FrameLayout
+                        android:id="@+id/layout_dark_muted1"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="#CCCCCC" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/photo_001" />
+
+                <TextView
+                    android:id="@+id/tv_header1"
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:text="Photo 001"
+                    android:paddingLeft="5dp"
+                    android:textSize="18sp"
+                    android:gravity="center_vertical"
+                    android:textColor="#FFFFFF"
+                    android:background="#CCCCCC"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="right">
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical|right"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Light Vibrant"
+                        android:layout_marginRight="10dp" />
+
+                    <FrameLayout
+                        android:id="@+id/layout_light_vibrant2"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="#CCCCCC" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:gravity="center_vertical|right">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Vibrant"
+                        android:layout_marginRight="10dp" />
+
+                    <FrameLayout
+                        android:id="@+id/layout_vibrant2"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="#CCCCCC" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:gravity="center_vertical|right">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Dark Vibrant"
+                        android:layout_marginRight="10dp" />
+
+                    <FrameLayout
+                        android:id="@+id/layout_dark_vibrant2"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="#CCCCCC" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:gravity="center_vertical|right">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Light Muted"
+                        android:layout_marginRight="10dp" />
+
+                    <FrameLayout
+                        android:id="@+id/layout_light_muted2"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="#CCCCCC" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:gravity="center_vertical|right">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Muted"
+                        android:layout_marginRight="10dp" />
+
+                    <FrameLayout
+                        android:id="@+id/layout_muted2"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="#CCCCCC" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:gravity="center_vertical|right">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Dark Muted"
+                        android:layout_marginRight="10dp" />
+
+                    <FrameLayout
+                        android:id="@+id/layout_dark_muted2"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="#CCCCCC" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/photo_002" />
+
+                <TextView
+                    android:id="@+id/tv_header2"
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:text="Photo 002"
+                    android:paddingLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:textColor="#FFFFFF"
+                    android:background="#CCCCCC"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="right">
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical|right"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Light Vibrant"
+                        android:layout_marginRight="10dp" />
+
+                    <FrameLayout
+                        android:id="@+id/layout_light_vibrant3"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="#CCCCCC" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:gravity="center_vertical|right">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Vibrant"
+                        android:layout_marginRight="10dp" />
+
+                    <FrameLayout
+                        android:id="@+id/layout_vibrant3"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="#CCCCCC" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:gravity="center_vertical|right">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Dark Vibrant"
+                        android:layout_marginRight="10dp" />
+
+                    <FrameLayout
+                        android:id="@+id/layout_dark_vibrant3"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="#CCCCCC" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:gravity="center_vertical|right">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Light Muted"
+                        android:layout_marginRight="10dp" />
+
+                    <FrameLayout
+                        android:id="@+id/layout_light_muted3"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="#CCCCCC" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:gravity="center_vertical|right">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Muted"
+                        android:layout_marginRight="10dp" />
+
+                    <FrameLayout
+                        android:id="@+id/layout_muted3"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="#CCCCCC" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:gravity="center_vertical|right">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Dark Muted"
+                        android:layout_marginRight="10dp" />
+
+                    <FrameLayout
+                        android:id="@+id/layout_dark_muted3"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="#CCCCCC" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/photo_003" />
+
+                <TextView
+                    android:id="@+id/tv_header3"
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:text="Photo 003"
+                    android:paddingLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:textColor="#FFFFFF"
+                    android:background="#CCCCCC"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="right">
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical|right"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Light Vibrant"
+                        android:layout_marginRight="10dp" />
+
+                    <FrameLayout
+                        android:id="@+id/layout_light_vibrant4"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="#CCCCCC" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:gravity="center_vertical|right">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Vibrant"
+                        android:layout_marginRight="10dp" />
+
+                    <FrameLayout
+                        android:id="@+id/layout_vibrant4"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="#CCCCCC" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:gravity="center_vertical|right">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Dark Vibrant"
+                        android:layout_marginRight="10dp" />
+
+                    <FrameLayout
+                        android:id="@+id/layout_dark_vibrant4"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="#CCCCCC" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:gravity="center_vertical|right">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Light Muted"
+                        android:layout_marginRight="10dp" />
+
+                    <FrameLayout
+                        android:id="@+id/layout_light_muted4"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="#CCCCCC" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:gravity="center_vertical|right">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Muted"
+                        android:layout_marginRight="10dp" />
+
+                    <FrameLayout
+                        android:id="@+id/layout_muted4"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="#CCCCCC" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:gravity="center_vertical|right">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Dark Muted"
+                        android:layout_marginRight="10dp" />
+
+                    <FrameLayout
+                        android:id="@+id/layout_dark_muted4"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="#CCCCCC" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/photo_004" />
+
+                <TextView
+                    android:id="@+id/tv_header4"
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:text="Photo 004"
+                    android:paddingLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:textColor="#FFFFFF"
+                    android:background="#CCCCCC"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
